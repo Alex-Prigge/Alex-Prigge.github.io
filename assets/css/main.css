@@ -4789,7 +4789,7 @@ body.is-touch #banner {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			width: 55%;
+			width: 45%;
 			max-width: 64rem;
 			margin: 0 auto;
 		}
@@ -4803,7 +4803,7 @@ body.is-touch #banner {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			width: 45%;
+			width: 55%;
 			min-width: 25rem;
 			border-radius: 0;
 		}
