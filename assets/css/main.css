@@ -4751,9 +4751,9 @@ body.is-touch #banner {
 		opacity: 0;
 	}
 
-/* Spotlight (style1) */
+/* Spotlight (style12) */
 
-	.spotlight.style1 {
+	.spotlight.style12 {
 		-moz-align-items: -moz-stretch;
 		-webkit-align-items: -webkit-stretch;
 		-ms-align-items: -ms-stretch;
@@ -4775,7 +4775,7 @@ body.is-touch #banner {
 		text-align: left;
 	}
 
-		.spotlight.style1 .content {
+		.spotlight.style12 .content {
 			padding: 7rem 7rem 5rem 7rem ;
 			-moz-align-self: center;
 			-webkit-align-self: center;
@@ -4789,12 +4789,12 @@ body.is-touch #banner {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			width: 45%;
+			width: 70%;
 			max-width: 64rem;
 			margin: 0 auto;
 		}
 
-		.spotlight.style1 .image {
+		.spotlight.style12 .image {
 			-moz-flex-grow: 0;
 			-webkit-flex-grow: 0;
 			-ms-flex-grow: 0;
@@ -4803,12 +4803,12 @@ body.is-touch #banner {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			width: 55%;
+			width: 30%;
 			min-width: 25rem;
 			border-radius: 0;
 		}
 
-			.spotlight.style1 .image img {
+			.spotlight.style12 .image img {
 				-moz-object-fit: cover;
 				-webkit-object-fit: cover;
 				-ms-object-fit: cover;
@@ -4828,7 +4828,7 @@ body.is-touch #banner {
 
 		@media screen and (max-width: 1680px) {
 
-			.spotlight.style1 .content {
+			.spotlight.style12 .content {
 				padding: 5rem 5rem 3rem 5rem ;
 			}
 
@@ -4836,7 +4836,7 @@ body.is-touch #banner {
 
 		@media screen and (max-width: 1280px) {
 
-			.spotlight.style1 .content {
+			.spotlight.style12 .content {
 				padding: 4rem 4rem 2rem 4rem ;
 			}
 
@@ -4844,13 +4844,13 @@ body.is-touch #banner {
 
 		@media screen and (max-width: 980px) {
 
-			.spotlight.style1 .content {
+			.spotlight.style12 .content {
 				padding: 3.75rem 3rem 1.75rem 3rem ;
 				width: 50%;
 				min-width: 0;
 			}
 
-			.spotlight.style1 .image {
+			.spotlight.style12 .image {
 				width: 50%;
 				min-width: 0;
 			}
@@ -4859,7 +4859,7 @@ body.is-touch #banner {
 
 		@media screen and (max-width: 736px) {
 
-			.spotlight.style1 .content {
+			.spotlight.style12 .content {
 				padding: 2.5rem 2rem 0.5rem 2rem ;
 			}
 
@@ -4867,7 +4867,7 @@ body.is-touch #banner {
 
 	@media screen and (max-width: 736px) and (orientation: portrait) {
 
-		.spotlight.style1 {
+		.spotlight.style12 {
 			-moz-flex-direction: column-reverse;
 			-webkit-flex-direction: column-reverse;
 			-ms-flex-direction: column-reverse;
@@ -4875,21 +4875,21 @@ body.is-touch #banner {
 			text-align: center !important;
 		}
 
-			.spotlight.style1 .content {
+			.spotlight.style12 .content {
 				width: 100%;
 			}
 
-			.spotlight.style1 .image {
+			.spotlight.style12 .image {
 				width: 100%;
 			}
 
-				.spotlight.style1 .image img {
+				.spotlight.style12 .image img {
 					position: relative;
 				}
 
 	}
 
-		.spotlight.style1.orient-right {
+		.spotlight.style12.orient-right {
 			-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
 			-ms-flex-direction: row-reverse;
@@ -4898,7 +4898,7 @@ body.is-touch #banner {
 
 	@media screen and (max-width: 736px) and (orientation: portrait) {
 
-		.spotlight.style1.orient-right {
+		.spotlight.style12.orient-right {
 			-moz-flex-direction: column-reverse;
 			-webkit-flex-direction: column-reverse;
 			-ms-flex-direction: column-reverse;
@@ -4907,28 +4907,201 @@ body.is-touch #banner {
 
 	}
 
-		.spotlight.style1.content-align-center {
+		.spotlight.style12.content-align-center {
 			text-align: center;
 		}
 
-		.spotlight.style1.content-align-right {
+		.spotlight.style12.content-align-right {
 			text-align: right;
 		}
 
-		.spotlight.style1.image-position-left .image img {
+		.spotlight.style12.image-position-left .image img {
 			-moz-object-position: left;
 			-webkit-object-position: left;
 			-ms-object-position: left;
 			object-position: left;
 		}
 
+		.spotlight.style12.image-position-right .image img {
+			-moz-object-position: right;
+			-webkit-object-position: right;
+			-ms-object-position: right;
+			object-position: right;
+		}
+/* Spotlight (style1) */
+
+.spotlight.style1 {
+	-moz-align-items: -moz-stretch;
+	-webkit-align-items: -webkit-stretch;
+	-ms-align-items: -ms-stretch;
+	align-items: stretch;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-direction: row;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-moz-justify-content: -moz-flex-end;
+	-webkit-justify-content: -webkit-flex-end;
+	-ms-justify-content: -ms-flex-end;
+	justify-content: flex-end;
+	position: relative;
+	overflow-x: hidden;
+	text-align: left;
+}
+
+	.spotlight.style1 .content {
+		padding:7rem 7rem 5rem 7rem ;
+		-moz-align-self: center;
+		-webkit-align-self: center;
+		-ms-align-self: center;
+		align-self: center;
+		-moz-flex-grow: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-grow: 1;
+		flex-grow: 1;
+		-moz-flex-shrink: 1;
+		-webkit-flex-shrink: 1;
+		-ms-flex-shrink: 1;
+		flex-shrink: 1;
+		width: 40%;
+		max-width: 64rem;
+		margin: 0 auto;
+	}
+
+	.spotlight.style1 .image {
+		-moz-flex-grow: 0;
+		-webkit-flex-grow: 0;
+		-ms-flex-grow: 0;
+		flex-grow: 0;
+		-moz-flex-shrink: 0;
+		-webkit-flex-shrink: 0;
+		-ms-flex-shrink: 0;
+		flex-shrink: 0;
+		width: 60%;
+		min-width: 25rem;
+		border-radius: 0;
+	}
+
+		.spotlight.style1 .image img {
+			-moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: contain;
+			-moz-object-position: center;
+			-webkit-object-position: center;
+			-ms-object-position: center;
+			object-position: right;
+			position: absolute;
+			top: 0;
+			left: 0;
+			border-radius: 0;
+		}
+
+		@media screen and (max-width: 1680px) {
+
+			.spotlight.style1 .content {
+				padding: 5rem 5rem 3rem 5rem ;
+			}
+	
+		}
+	
+		@media screen and (max-width: 1280px) {
+	
+			.spotlight.style1 .content {
+				padding: 4rem 4rem 2rem 4rem ;
+			}
+	
+		}
+	
+		@media screen and (max-width: 980px) {
+	
+			.spotlight.style1 .content {
+				padding: 3.75rem 3rem 1.75rem 3rem ;
+				width: 50%;
+				min-width: 0;
+			}
+	
+			.spotlight.style1 .image {
+				width: 50%;
+				min-width: 0;
+			}
+	
+		}
+	
+		@media screen and (max-width: 736px) {
+	
+			.spotlight.style1 .content {
+				padding: 2.5rem 2rem 0.5rem 2rem ;
+			}
+	
+		}
+	
+	@media screen and (max-width: 736px) and (orientation: portrait) {
+	
+		.spotlight.style1 {
+			-moz-flex-direction: column-reverse;
+			-webkit-flex-direction: column-reverse;
+			-ms-flex-direction: column-reverse;
+			flex-direction: column-reverse;
+			text-align: center !important;
+		}
+	
+			.spotlight.style1 .content {
+				width: 100%;
+			}
+	
+			.spotlight.style1 .image {
+				width: 100%;
+			}
+	
+				.spotlight.style1 .image img {
+					position: relative;
+				}
+	
+	}
+	
+		.spotlight.style1.orient-right {
+			-moz-flex-direction: row-reverse;
+			-webkit-flex-direction: row-reverse;
+			-ms-flex-direction: row-reverse;
+			flex-direction: row-reverse;
+		}
+	
+	@media screen and (max-width: 736px) and (orientation: portrait) {
+	
+		.spotlight.style1.orient-right {
+			-moz-flex-direction: column-reverse;
+			-webkit-flex-direction: column-reverse;
+			-ms-flex-direction: column-reverse;
+			flex-direction: column-reverse;
+		}
+	
+	}
+	
+		.spotlight.style1.content-align-center {
+			text-align: center;
+		}
+	
+		.spotlight.style1.content-align-right {
+			text-align: right;
+		}
+	
+		.spotlight.style1.image-position-left .image img {
+			-moz-object-position: left;
+			-webkit-object-position: left;
+			-ms-object-position: left;
+			object-position: left;
+		}
+	
 		.spotlight.style1.image-position-right .image img {
 			-moz-object-position: right;
 			-webkit-object-position: right;
 			-ms-object-position: right;
 			object-position: right;
 		}
-
 /* Spotlight (style2) */
 
 	.spotlight.style2 {
@@ -4978,7 +5151,7 @@ body.is-touch #banner {
 				-moz-object-fit: cover;
 				-webkit-object-fit: cover;
 				-ms-object-fit: cover;
-				object-fit: cover;
+				object-fit: contain;
 				-moz-object-position: center;
 				-webkit-object-position: center;
 				-ms-object-position: center;
